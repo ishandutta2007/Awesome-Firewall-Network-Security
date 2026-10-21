@@ -30,6 +30,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -39,6 +40,12 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - [Disclaimer](#disclaimer)
 
 
+
+## Sector Overview & Market Dynamics
+
+The global enterprise firewall and network security market is valued at approximately **$30.8 Billion in 2025** and projected to reach **$34.4 Billion by 2026** (with the dedicated Next-Generation Firewall / NGFW segment accounting for ~$7.1B+), maintaining a robust compound annual growth rate (CAGR) of ~11–13%.
+
+Structurally, the sector exhibits a **concentrated oligopoly at the enterprise tier**—where dominant vendors (Palo Alto Networks, Fortinet, Cisco, and Check Point) command well over 50% of worldwide revenue—balanced by a **moderately fragmented long tail** of specialized UTM hardware providers, cloud-native micro-segmentation platforms, and open-source ecosystems.
 
 ## SaaS/Hosted Platforms
 
