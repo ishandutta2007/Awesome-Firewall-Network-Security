@@ -11,7 +11,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#how-to-contribute)
 [![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Firewall-Network-Security?style=flat-square&color=yellow)](https://github.com/ishandutta2007/Awesome-Firewall-Network-Security/stargazers)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-October%202026-blue)](https://github.com/ishandutta2007/Awesome-Firewall-Network-Security)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-October%202026-blue)](https://github.com/ishandutta2007/Awesome-Firewall-Network-Security) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 > A curated collection of leading Enterprise Next-Generation Firewalls (NGFW), commercial security appliances, and high-performance open-source network defense projects—covering stateful packet inspection, eBPF micro-segmentation, intrusion prevention (IDS/IPS), and Zero Trust perimeter engineering.
 
