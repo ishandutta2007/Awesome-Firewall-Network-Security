@@ -26,6 +26,8 @@
 - [⚖️ Key Architectural Comparison & Selection Matrix](#️-key-architectural-comparison--selection-matrix)
 - [❓ Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [⭐ Star History](#--star-history)
 - [⚠️ Disclaimer](#️-disclaimer)
 
 ---
@@ -148,6 +150,26 @@ Frameworks like **Cilium** and **Aegis** leverage eBPF (Extended Berkeley Packet
 ⭐ **Star this repository** if you find it useful for your network defense infrastructure!
 
 
+
+## 💖 Support
+
+A huge thank you to all the network engineers, security architects, homelab hobbyists, and open-source contributors who support and expand this project! 🙏
+
+If this curated repository helped you design your network security architecture, choose the right firewall, or protect your infrastructure, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork and contribute** updates or new firewall tools.
+- 📢 **Share it** with colleagues, DevOps/NetOps teams, and cybersecurity groups.
+- ☕ **Sponsor / Buy me a coffee** to support ongoing maintenance and new research:
+
+<p align="left">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor%20on%20GitHub-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+##  Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Firewall-Network-Security&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Firewall-Network-Security&type=date&legend=top-left)
 
 ## ⚠️ Disclaimer
 
