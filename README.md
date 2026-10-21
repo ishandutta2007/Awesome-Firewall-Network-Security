@@ -1,46 +1,30 @@
+<!-- SEO Meta: A curated directory of Next-Generation Firewalls (NGFW), Open-Source Firewall Platforms, Intrusion Detection/Prevention Systems (IDS/IPS), and Zero Trust Network Security Architectures. -->
+<!-- Keywords: firewall, next-generation firewall, ngfw, network security, opnsense, pfsense, openwrt, cilium, suricata, zeek, crowdsec, snort3, fortigate, palo alto networks, zero trust -->
+
 # Awesome-Firewall-Network-Security
 
-## Top Firewall & Network Security Ecosystem
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#how-to-contribute)
+[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Firewall-Network-Security?style=flat-square&color=yellow)](https://github.com/ishandutta2007/Awesome-Firewall-Network-Security/stargazers)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-October%202026-blue)](https://github.com/ishandutta2007/Awesome-Firewall-Network-Security)
 
+> A curated collection of leading Enterprise Next-Generation Firewalls (NGFW), commercial security appliances, and high-performance open-source network defense projects—covering stateful packet inspection, eBPF micro-segmentation, intrusion prevention (IDS/IPS), and Zero Trust perimeter engineering.
 
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Next-Generation Firewalls, Intrusion Prevention & Self-Hosted Network Security*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Firewall & Network Security**. These tools protect networks by filtering traffic, blocking intrusions, inspecting encrypted content, and enforcing security policies—forming the perimeter defense layer for organizations of every size.
-
-
-
-**Examples** include Sophos Firewall, Fortinet FortiGate, Palo Alto Networks, Check Point Quantum, Cisco Secure Firewall, WatchGuard Firebox, SonicWall, Barracuda CloudGen, Juniper SRX, and OPNsense (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom rule development, and transparent network security—ideal for organizations that prioritize data sovereignty, avoid subscription lock-in, and require auditable security infrastructure. The open-source landscape is anchored by **OPNsense** (the leading open-source firewall with a modern UI and frequent updates), its ancestor **pfSense** (larger installed base but increasingly commercialized), and **OpenWrt** (router firmware with firewall capabilities), with emerging projects like **Aegis** exploring eBPF-based Zero Trust enforcement.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
+---
 
 ## Table of Contents
 
 - [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
+- [Enterprise SaaS & Hosted NGFW Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
+  - [Architecture Guide: Building an Open-Source Security Stack](#architecture-guide-building-a-resilient-open-source-security-stack)
+- [Key Architectural Comparison & Selection Matrix](#key-architectural-comparison--selection-matrix)
+- [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
 - [How to Contribute](#how-to-contribute)
+- [Disclaimer & License](#disclaimer)
 
-- [Disclaimer](#disclaimer)
-
-
-
+---
 ## Sector Overview & Market Dynamics
 
 The global enterprise firewall and network security market is valued at approximately **$30.8 Billion in 2025** and projected to reach **$34.4 Billion by 2026** (with the dedicated Next-Generation Firewall / NGFW segment accounting for ~$7.1B+), maintaining a robust compound annual growth rate (CAGR) of ~11–13%.
@@ -118,6 +102,35 @@ Curated open-source firewall platforms, intrusion prevention systems, and networ
 - **Collaborative IP Bouncing**: Pair **CrowdSec** bouncers with your edge firewalls to block active threat campaigns identified across the global threat network.
 - **Cloud-Native & Container Firewalls**: Leverage **Cilium** for eBPF-driven L3-L7 micro-segmentation in Kubernetes environments.
 - **Configuration-as-Code**: Store your firewall XML configurations (OPNsense) or declarative scripts (VyOS) in a version-controlled Git repository to ensure automated auditing and zero-downtime recovery.
+
+
+
+## Key Architectural Comparison & Selection Matrix
+
+When selecting between commercial enterprise platforms and open-source firewall distributions, evaluate the following operational tradeoffs:
+
+| Feature Dimension | Commercial SaaS / Enterprise NGFW | Open-Source Firewall Distributions |
+| :--- | :--- | :--- |
+| **Primary Deployment** | Proprietary turnkey hardware or hypervisor/cloud virtual appliances | Commodity x86 hardware (Protectli, Lanner), VMs, or container/eBPF runtimes |
+| **Throughput Acceleration** | Proprietary ASICs (e.g., Fortinet SPU/NPU) or custom offload cards | Modern CPU instruction sets (DPDK, AES-NI, eBPF/XDP kernel bypass) |
+| **Threat Intelligence** | Cloud threat intelligence feeds (Talos, WildFire, FortiGuard) | Community intelligence feeds (ETOpen, CrowdSec CTI, URLhaus) with optional paid feeds |
+| **Multi-Site Orchestration**| Centralized vendor cloud console (Sophos Central, FortiManager) | Declarative configuration-as-code (GitOps, Ansible, XML syncing, Terraform) |
+| **Licensing Cost** | Annual recurring subscription per appliance or metered hourly | 100% free perpetual software license; hardware CapEx and in-house maintenance only |
+| **Auditability & Privacy** | Proprietary closed-source firmware | 100% auditable source code with zero telemetry leakage and full data sovereignty |
+
+
+## Frequently Asked Questions (FAQ)
+
+### What is the primary difference between a traditional firewall and a Next-Generation Firewall (NGFW)?
+Traditional firewalls operate primarily at Layers 3 and 4, inspecting source and destination IP addresses, ports, and protocols (stateful packet filtering). Next-Generation Firewalls (NGFW) perform Layer 7 deep packet inspection (DPI), detecting application-layer signatures regardless of port, enforcing TLS/SSL inspection, blocking zero-day threats through sandboxing, and providing integrated intrusion prevention (IPS).
+
+### Which open-source firewall is best: OPNsense, pfSense, or OpenWrt?
+- **OPNsense**: Best for modern enterprise and homelab deployments needing active weekly patching, intuitive modern UI, native WireGuard support, and plaintext XML Git versioning.
+- **pfSense (CE)**: Best for users looking for extensive historical documentation and battle-tested FreeBSD stability, though the community version receives fewer updates than pfSense Plus.
+- **OpenWrt**: Best for resource-constrained embedded routers, IoT gateways, and lightweight edge environments requiring minimal CPU and memory footprints.
+
+### How does eBPF change network firewall architectures?
+Frameworks like **Cilium** and **Aegis** leverage eBPF (Extended Berkeley Packet Filter) to attach security filtering programs directly to Linux kernel hooks and the network driver (XDP). This bypasses the traditional `iptables` connection tracking bottleneck, enabling millions of packet evaluations per second with identity-based micro-segmentation for Kubernetes and cloud-native containers.
 
 ## How to Contribute
 
