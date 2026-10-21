@@ -1,6 +1,10 @@
 <!-- SEO Meta: A curated directory of Next-Generation Firewalls (NGFW), Open-Source Firewall Platforms, Intrusion Detection/Prevention Systems (IDS/IPS), and Zero Trust Network Security Architectures. -->
 <!-- Keywords: firewall, next-generation firewall, ngfw, network security, opnsense, pfsense, openwrt, cilium, suricata, zeek, crowdsec, snort3, fortigate, palo alto networks, zero trust -->
 
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Firewall & Network Security" width="100%">
+</p>
+
 # Awesome-Firewall-Network-Security
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
