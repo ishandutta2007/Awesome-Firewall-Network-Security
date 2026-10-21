@@ -42,67 +42,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Sophos Firewall](https://www.sophos.com/en-us/products/firewall)**  
-
-  Commercial NGFW with integrated endpoint protection, cloud sandbox, and Sophos Central for multi-site management. Subscription-based per appliance. Strong for organizations that want a unified security stack from endpoint to perimeter .
-
-
-
-- **[Fortinet FortiGate](https://www.fortinet.com/products/next-generation-firewall)**  
-
-  Enterprise NGFW with ASIC-accelerated performance, integrated SD-WAN, and FortiManager for centralized multi-site control. Subscription bundles per appliance tier. Best for high-bandwidth environments and organizations managing many distributed sites .
-
-
-
-- **[Palo Alto Networks](https://www.paloaltonetworks.com/network-security/next-generation-firewall)**  
-
-  Enterprise NGFW platform with deep content inspection, WildFire threat intelligence, and Prisma Access for cloud-delivered security. Premium pricing reflects its position in large enterprise and regulated environments.
-
-
-
-- **[Check Point Quantum](https://www.checkpoint.com/quantum/)**  
-
-  Enterprise security gateway with unified threat management, threat extraction, and centralized management via Check Point's security management suite. Strong for organizations requiring high-assurance perimeter defense.
-
-
-
-- **[Cisco Secure Firewall](https://www.cisco.com/c/en/us/products/security/firewalls/index.html)**  
-
-  Enterprise firewall portfolio (formerly Firepower) with deep integration into Cisco's networking and security ecosystem. Best for organizations already standardized on Cisco infrastructure.
-
-
-
-- **[WatchGuard Firebox](https://www.watchguard.com/wgrd-products/network-security/firebox)**  
-
-  Mid-market NGFW with integrated Wi-Fi, VPN, and threat detection. Managed via WatchGuard Cloud or on-premises Dimension. Competitive pricing for SMB and branch deployments.
-
-
-
-- **[SonicWall](https://www.sonicwall.com/products/firewalls/)**  
-
-  NGFW and UTM appliances for SMB and mid-market. Known for value pricing and ease of deployment. Managed via SonicWall Capture Security Center.
-
-
-
-- **[Barracuda CloudGen Firewall](https://www.barracuda.com/products/cloudgen-firewall)**  
-
-  Enterprise firewall for distributed networks with centralized management via CloudGen Control Center. Strong for multi-site deployments requiring consistent policy enforcement.
-
-
-
-- **[Juniper SRX](https://www.juniper.net/us/en/products/security/srx-series.html)**  
-
-  Enterprise security gateway with integrated routing, switching, and security. Best for organizations with existing Juniper network infrastructure.
-
-
-
-- **[Untangle NG Firewall (Arista)](https://www.untangle.com/)**  
-
-  NGFW platform for SMB with modular apps for web filtering, IPS, VPN, and policy management. Acquired by Arista and integrated into their network security portfolio.
-
-
+| Platform | Core Capabilities | Starting Pricing | Free Tier Limits / Evaluation Period |
+| :--- | :--- | :--- | :--- |
+| **[Sophos Firewall](https://www.sophos.com/en-us/products/firewall)** | Commercial NGFW with synchronized endpoint protection, cloud sandbox, and Sophos Central for multi-site orchestration. | $580 one-time hardware (XGS 87 desktop) + $260/yr Standard Protection subscription | **Free Forever** for home non-commercial use (Home Edition limited to 4 CPU cores, 6 GB RAM, full feature set on dedicated PC); **30-day free trial** for enterprise virtual appliance |
+| **[Fortinet FortiGate](https://www.fortinet.com/products/next-generation-firewall)** | Enterprise NGFW powered by custom SPUs/NPUs for ASIC acceleration, native SD-WAN, and centralized FortiManager orchestration. | $480 one-time hardware (FortiGate 40F) + $210/yr FortiCare UTP bundle, or $0.65/hr (FortiGate-VM) | **30-day free trial** for FortiGate-VM on AWS, Azure, and GCP (restricted to 1 vCPU and baseline evaluation license, full UTM inspection features unlocked) |
+| **[Palo Alto Networks](https://www.paloaltonetworks.com/network-security/next-generation-firewall)** | Enterprise NGFW platform with deep content inspection, App-ID, WildFire ML threat intelligence, and Prisma Access cloud edge security. | $1.35/hr PAYG (VM-Series software) or $1,800 entry hardware (PA-410) + $650/yr threat prevention subscription | **30-day free trial** for Cloud NGFW (limited to 2 firewalls securing up to 100 GB of traffic) and 30-day VM-Series evaluation license on VMware/Azure/GCP |
+| **[Check Point Quantum](https://www.checkpoint.com/quantum/)** | Enterprise security gateway with unified threat management, SandBlast zero-day threat extraction, and centralized management console. | $1,050 one-time hardware (Quantum Spark 1530 SMB appliance) + $350/yr Threat Prevention suite, or $0.85/hr (CloudGuard) | **30-day free trial** (Quantum Virtual/CloudGuard evaluation license providing complete Next-Gen Threat Prevention and sandboxing blades) |
+| **[Cisco Secure Firewall](https://www.cisco.com/c/en/us/products/security/firewalls/index.html)** | Enterprise firewall portfolio (formerly Firepower) with deep integration into Cisco network switches, routers, and Talos threat intelligence. | $1.20/hr PAYG (Cloud FTDv) or $450 one-time hardware (Firepower 1010) + $395/yr base threat subscription | **30-day free trial** on AWS/Azure Marketplace (Software fees waived for 30 days for 1 virtual firewall instance; cloud compute infrastructure charges apply) |
+| **[WatchGuard Firebox](https://www.watchguard.com/wgrd-products/network-security/firebox)** | Mid-market NGFW with integrated Wi-Fi, VPN, and threat detection, managed via WatchGuard Cloud or on-premises Dimension. | $390 one-time hardware (Firebox T25) + $150/yr Standard Support, or $0.45/hr (Firebox Cloud PAYG) | **30-day free trial** (Total Security Suite evaluation key providing complete Gateway AV, Intrusion Prevention, and WebBlocker on physical or virtual instances) |
+| **[SonicWall](https://www.sonicwall.com/products/firewalls/)** | NGFW and UTM appliances for SMB and distributed mid-market with Capture ATP multi-engine sandboxing and Capture Security Center. | $495 one-time hardware (SonicWall TZ270) + $195/yr Essential Protection Service Suite (EPSS) | **30-day free trial** (MySonicWall virtual NSv trial with full Capture ATP cloud sandbox enabled; promotional trials up to 90 days) |
+| **[Barracuda CloudGen Firewall](https://www.barracuda.com/products/cloudgen-firewall)** | Enterprise firewall engineered for distributed multi-site networks with SD-WAN optimization and CloudGen Control Center. | $750 one-time hardware (CloudGen F18) or $0.70/hr PAYG on AWS/Azure | **14-day free trial** directly through Barracuda platform (full-featured CloudGen evaluation) or **30-day trial** via AWS Marketplace (software costs waived) |
+| **[Juniper SRX](https://www.juniper.net/us/en/products/security/srx-series.html)** | Enterprise security gateway combining high-performance routing, switching, and Junos OS security services with cSRX container support. | $0.55/hr PAYG (vSRX virtual firewall) or $450 one-time hardware (SRX300) + annual security bundle | **60-day free trial** for vSRX directly from Juniper (core firewall enabled for 60 days, advanced IPS & AppSecure active for first 30 days); 30 days via cloud marketplaces |
+| **[Untangle NG Firewall (Arista)](https://www.untangle.com/)** | NGFW platform for SMB with modular apps for web filtering, IPS, WireGuard VPN, and policy management in Arista Edge Threat Management. | $25.00/month (Complete software package) or $299 one-time hardware (Z4 series appliance) | **Free Forever** basic tier (unlimited duration with baseline routing, NAT, and firewall rules; excludes Web Filter and IPS) + **30-day full-featured trial** |
 
 ## Open-Source GitHub Projects
 
