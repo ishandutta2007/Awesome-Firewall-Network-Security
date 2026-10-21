@@ -10,7 +10,7 @@
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#how-to-contribute)
-[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Firewall-Network-Security?style=flat-square&color=yellow)](https://github.com/ishandutta2007/Awesome-Firewall-Network-Security/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Firewall-Network-Security?style=flat-square&color=yellow)](https://github.com/ishandutta2007/Awesome-Firewall-Network-Security/stargazers)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-October%202026-blue)](https://github.com/ishandutta2007/Awesome-Firewall-Network-Security) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 > A curated collection of leading Enterprise Next-Generation Firewalls (NGFW), commercial security appliances, and high-performance open-source network defense projects—covering stateful packet inspection, eBPF micro-segmentation, intrusion prevention (IDS/IPS), and Zero Trust perimeter engineering.
@@ -54,51 +54,51 @@ Structurally, the sector exhibits a **concentrated oligopoly at the enterprise t
 
 ## 💻 Open-Source GitHub Projects
 
-Curated open-source firewall platforms, intrusion prevention systems, and network security tooling—sorted strictly descending by GitHub stars. Each repository badge links directly to its stargazers page.
+Curated open-source firewall platforms, intrusion prevention systems, and network security tooling—sorted strictly descending by GitHub_Stars. Each repository badge links directly to its stargazers page.
 
-- **[OpenWrt](https://github.com/openwrt/openwrt)** [![GitHub stars](https://img.shields.io/github/stars/openwrt/openwrt?style=social&color=white)](https://github.com/openwrt/openwrt/stargazers)  
+- **[OpenWrt](https://github.com/openwrt/openwrt)** [![GitHub_Stars](https://img.shields.io/github/stars/openwrt/openwrt?style=social&color=white)](https://github.com/openwrt/openwrt/stargazers)  
   Linux-based embedded operating system and router firmware equipped with `nftables`/`iptables` stateful packet filtering, SQM QoS bufferbloat management, and multi-WAN load balancing. Extensively extensible via thousands of opkg packages (including Suricata, AdGuard Home, and WireGuard) across x86 hardware and commercial routers.
 
-- **[Cilium](https://github.com/cilium/cilium)** [![GitHub stars](https://img.shields.io/github/stars/cilium/cilium?style=social&color=white)](https://github.com/cilium/cilium/stargazers)  
+- **[Cilium](https://github.com/cilium/cilium)** [![GitHub_Stars](https://img.shields.io/github/stars/cilium/cilium?style=social&color=white)](https://github.com/cilium/cilium/stargazers)  
   Cloud-native networking, observability, and network security firewall powered by eBPF. Enforces Layer 3 through Layer 7 identity-aware security policies, transparent network encryption (WireGuard / IPsec), and API-level authorization (HTTP/gRPC/Kafka) without iptables overhead.
 
-- **[CrowdSec](https://github.com/crowdsecurity/crowdsec)** [![GitHub stars](https://img.shields.io/github/stars/crowdsecurity/crowdsec?style=social&color=white)](https://github.com/crowdsecurity/crowdsec/stargazers)  
+- **[CrowdSec](https://github.com/crowdsecurity/crowdsec)** [![GitHub_Stars](https://img.shields.io/github/stars/crowdsecurity/crowdsec?style=social&color=white)](https://github.com/crowdsecurity/crowdsec/stargazers)  
   Collaborative, crowd-sourced cyber defense engine that parses system and network logs to detect aggressive behaviors, blocking malicious IPs across the collective network. Integrates as an automated remediation bouncer with OPNsense, pfSense, Linux nftables, and cloud firewalls.
 
-- **[OpenSnitch](https://github.com/evilsocket/opensnitch)** [![GitHub stars](https://img.shields.io/github/stars/evilsocket/opensnitch?style=social&color=white)](https://github.com/evilsocket/opensnitch/stargazers)  
+- **[OpenSnitch](https://github.com/evilsocket/opensnitch)** [![GitHub_Stars](https://img.shields.io/github/stars/evilsocket/opensnitch?style=social&color=white)](https://github.com/evilsocket/opensnitch/stargazers)  
   Interactive GNU/Linux application firewall inspired by Little Snitch. Intercepts outgoing connection requests in real-time, displays interactive alert prompts, and allows or blocks connections based on process binary, user ID, destination IP, and domain patterns.
 
-- **[ntopng](https://github.com/ntop/ntopng)** [![GitHub stars](https://img.shields.io/github/stars/ntop/ntopng?style=social&color=white)](https://github.com/ntop/ntopng/stargazers)  
+- **[ntopng](https://github.com/ntop/ntopng)** [![GitHub_Stars](https://img.shields.io/github/stars/ntop/ntopng?style=social&color=white)](https://github.com/ntop/ntopng/stargazers)  
   High-speed web-based traffic analysis, flow monitoring, and network security inspection software. Leverages nDPI (deep packet inspection) to categorize application layer traffic, identify malicious behavior, surface security vulnerabilities, and enforce host-level policy actions.
 
-- **[Zeek](https://github.com/zeek/zeek)** [![GitHub stars](https://img.shields.io/github/stars/zeek/zeek?style=social&color=white)](https://github.com/zeek/zeek/stargazers)  
+- **[Zeek](https://github.com/zeek/zeek)** [![GitHub_Stars](https://img.shields.io/github/stars/zeek/zeek?style=social&color=white)](https://github.com/zeek/zeek/stargazers)  
   Enterprise-scale network security monitoring (NSM) framework that translates raw network traffic into structured, transaction-level event streams. Enables in-depth threat hunting, forensic analysis, protocol validation, and automated network anomaly alerting.
 
-- **[ClamAV](https://github.com/Cisco-Talos/clamav)** [![GitHub stars](https://img.shields.io/github/stars/Cisco-Talos/clamav?style=social&color=white)](https://github.com/Cisco-Talos/clamav/stargazers)  
+- **[ClamAV](https://github.com/Cisco-Talos/clamav)** [![GitHub_Stars](https://img.shields.io/github/stars/Cisco-Talos/clamav?style=social&color=white)](https://github.com/Cisco-Talos/clamav/stargazers)  
   Open-source multi-threaded antivirus engine designed for scanning email gateways, network proxies, and file endpoints against trojans, viruses, and malware. Regularly deployed as an inline content scanning module within open-source perimeter firewalls.
 
-- **[Suricata](https://github.com/OISF/suricata)** [![GitHub stars](https://img.shields.io/github/stars/OISF/suricata?style=social&color=white)](https://github.com/OISF/suricata/stargazers)  
+- **[Suricata](https://github.com/OISF/suricata)** [![GitHub_Stars](https://img.shields.io/github/stars/OISF/suricata?style=social&color=white)](https://github.com/OISF/suricata/stargazers)  
   High-performance, multi-threaded Network Threat Detection, IDS, IPS, and Network Security Monitoring engine. Uses standard rule formats (ETOpen/ETPro) and hyperscan acceleration; serves as the foundational intrusion prevention engine in OPNsense, pfSense, and numerous enterprise firewalls.
 
-- **[pfSense](https://github.com/pfsense/pfsense)** [![GitHub stars](https://img.shields.io/github/stars/pfsense/pfsense?style=social&color=white)](https://github.com/pfsense/pfsense/stargazers)  
+- **[pfSense](https://github.com/pfsense/pfsense)** [![GitHub_Stars](https://img.shields.io/github/stars/pfsense/pfsense?style=social&color=white)](https://github.com/pfsense/pfsense/stargazers)  
   Established FreeBSD-based open-source firewall distribution providing stateful packet filtering via `pf`, multi-WAN failover, OpenVPN/IPsec endpoints, and extensive package support. Backed by Netgate, offering pfSense Community Edition (CE) and commercial pfSense Plus.
 
-- **[OPNsense](https://github.com/opnsense/core)** [![GitHub stars](https://img.shields.io/github/stars/opnsense/core?style=social&color=white)](https://github.com/opnsense/core/stargazers)  
+- **[OPNsense](https://github.com/opnsense/core)** [![GitHub_Stars](https://img.shields.io/github/stars/opnsense/core?style=social&color=white)](https://github.com/opnsense/core/stargazers)  
   Leading open-source FreeBSD-based firewall and routing platform. Features a modern MVC web interface, native WireGuard VPN, integrated Suricata IDS/IPS, weekly security patches, and human-readable XML configuration for Git version control and auditable infrastructure.
 
-- **[Snort 3](https://github.com/snort3/snort3)** [![GitHub stars](https://img.shields.io/github/stars/snort3/snort3?style=social&color=white)](https://github.com/snort3/snort3/stargazers)  
+- **[Snort 3](https://github.com/snort3/snort3)** [![GitHub_Stars](https://img.shields.io/github/stars/snort3/snort3?style=social&color=white)](https://github.com/snort3/snort3/stargazers)  
   Completely modernized multi-threaded network intrusion detection and prevention system (IDS/IPS). Features Lua scripting configuration, Hyperscan pattern matching, shared connection state tables, and real-time packet inspection backed by Cisco Talos intelligence.
 
-- **[Firewalld](https://github.com/firewalld/firewalld)** [![GitHub stars](https://img.shields.io/github/stars/firewalld/firewalld?style=social&color=white)](https://github.com/firewalld/firewalld/stargazers)  
+- **[Firewalld](https://github.com/firewalld/firewalld)** [![GitHub_Stars](https://img.shields.io/github/stars/firewalld/firewalld?style=social&color=white)](https://github.com/firewalld/firewalld/stargazers)  
   Dynamically managed Linux firewall daemon supporting network/firewall zones, runtime rule reconfiguration via D-Bus without breaking existing connections, and native backend support for both `nftables` and `iptables`.
 
-- **[VyOS](https://github.com/vyos/vyos-1x)** [![GitHub stars](https://img.shields.io/github/stars/vyos/vyos-1x?style=social&color=white)](https://github.com/vyos/vyos-1x/stargazers)  
+- **[VyOS](https://github.com/vyos/vyos-1x)** [![GitHub_Stars](https://img.shields.io/github/stars/vyos/vyos-1x?style=social&color=white)](https://github.com/vyos/vyos-1x/stargazers)  
   Debian-based open-source network operating system delivering enterprise routing (BGP, OSPF), zone-based stateful firewalling, source/destination NAT, and multi-tunnel VPN termination managed through a unified declarative CLI and HTTP API.
 
-- **[Aegis](https://github.com/pushkar-gr/Aegis)** [![GitHub stars](https://img.shields.io/github/stars/pushkar-gr/Aegis?style=social&color=white)](https://github.com/pushkar-gr/Aegis/stargazers)  
+- **[Aegis](https://github.com/pushkar-gr/Aegis)** [![GitHub_Stars](https://img.shields.io/github/stars/pushkar-gr/Aegis?style=social&color=white)](https://github.com/pushkar-gr/Aegis/stargazers)  
   High-performance distributed Zero Trust firewall leveraging eBPF/XDP. Enforces identity-based micro-segmentation directly inside the Linux kernel, opening network pathways strictly upon authenticated user verification.
 
-- **[Open-NGFW](https://github.com/hungtrungthinh/Open-NGFW)** [![GitHub stars](https://img.shields.io/github/stars/hungtrungthinh/Open-NGFW?style=social&color=white)](https://github.com/hungtrungthinh/Open-NGFW/stargazers)  
+- **[Open-NGFW](https://github.com/hungtrungthinh/Open-NGFW)** [![GitHub_Stars](https://img.shields.io/github/stars/hungtrungthinh/Open-NGFW?style=social&color=white)](https://github.com/hungtrungthinh/Open-NGFW/stargazers)  
   Modern Next-Generation Firewall engine developed in Rust featuring a clean web UI dashboard, real-time traffic monitoring, RESTful API management, and containerized Docker deployment across x86_64 and ARM platforms.
 
 ### 🏗️ Architecture Guide: Building a Resilient Open-Source Security Stack
